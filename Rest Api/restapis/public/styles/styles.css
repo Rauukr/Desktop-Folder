@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.uppermain{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 700px;
+    padding: 4px;
+    align-items: center;
+}
+.response-area{
+    margin-left: 40px;
+    height: 70px;
+    width: 620px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.super{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(28, 28, 206);
+    border-radius: 5px;
+    color: white; 
+}
+
+.main{
+    /* border:solid 5px rgb(206, 115, 115); */
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.box{
+ height: 30px;
+ width: 100px;
+ background-color: rgb(28, 28, 206);
+ text-align: center;
+ border-radius: 5px;
+ margin-bottom: 30px;
+ margin-left: 20px;
+}
+.labels{
+    /* margin-left: 550px; */
+    color: white;
+}
+.labelss{
+    color: rgb(7, 34, 211);
+    text-overflow: initial;
+}
+
+.textmain{
+    background-color: rgb(36, 71, 127);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#idInput{
+    height: 30px;
+    width: 34.5%;
+    margin: 10px;
+}
+p{
+    text-align: center;
+}
+#scoreInput{
+    height: 35px;
+    width: 33%;
+    margin: 10px;
+}
+#secretInput{
+    height: 35px;
+    width: 32.8%; 
+    margin: 10px;
+}
+
+/* input{
+    margin-left: 560px;
+} */

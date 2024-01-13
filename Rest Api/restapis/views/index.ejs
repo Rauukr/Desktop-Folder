@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="super">
+  <div class="uppermain">
+    <div class="response-area">
+        <p>
+          <%= content %>
+        </p>
+      </div>
+       <br>
+      <form action="" method="post">
+        <div class="textmain">
+        <label class="labels" for="idInput">Id:</label>
+        <input type="text" id="idInput" name="id">
+  
+        <label class="labels" for="secretInput">Secret:</label>
+        <input type="text" id="secretInput" name="secret">
+ 
+        <label class="labels" for="scoreInput">Score:</label>
+        <input type="number" id="scoreInput" name="score">
+    </div>
+    <div class="main">
+        <label class="labelss" for="Route">Route:</label>
+         <div class="get box" ><input  class="inputs" type="submit" id="get" value="get" formaction="/get-secret" ></div>
+         <div class="post box"><input class="inputs" type="submit"value="post" id="post" formaction="/post-secret"></div>
+         <div class="patch box" ><input class="inputs" type="submit" id="patch" value="patch" formaction="/patch-secret"></div>
+         <div class="put box" ><input class="inputs" type="submit" value="put" id="put" formaction="/patch-secret"></div>
+         <div class="delete box"><input class="inputs" type="submit" value="delete" id="delete" formaction="delete-secret"></div>
+    </div>
+</form>
+</div>
+</div>  
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #0091ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loancal {
+    padding-top: 15px;
+    padding-left: 75px;
+    width: 375px;
+    height: 295px;
+    background-color:#0091ff;
+    color: #fff;
+}
+/* input{
+    height: 200px;
+    width: 120px;
+    background-color: aqua;
+    color:black;
+
+} */
+
+#months, #amount, #interest_rate{
+    width: 185px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: aqua;
+
+}
+
+#interest_rate {
+    margin-left: 2px;
+}
+
+h1 {
+    font-size:40px;
+}
